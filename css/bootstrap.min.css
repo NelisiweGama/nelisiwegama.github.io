@@ -5791,6 +5791,12 @@ a.bg-dark:hover {
     }
 }
 
+@media screen and (max-width:1000px) {
+    p.cardtext {
+        display: none
+    }
+}
+
 @media (min-width:1200px) {
     .d-xl-none {
         display: none!important
